@@ -1,0 +1,40 @@
+@page "/engine"
+
+<h1 style="font-size:100px;">engine information</h1>
+<h6 style="font-size: 27px;">patrol engine</h6>
+<img src="https://media.hagerty.com/media/wp-content/uploads/uscamediasite/images/story-images/2020/03/04/gemera_engine(04)20200304200843"
+     alt="patrol"
+     style="width: 270px; height:220px;" />
+<pre style=" text-decoration:overline; font-size:18px">
+*Koenigsegg Hot V8
+
+*5L Twin Turbo V8
+
+*Power: 1500 hp at 7800 rpm, red line 8500 rpm
+
+*Torque: 1500 Nm at 5000 rpm
+
+</pre>
+<hr style="border: 1px solid black;" />
+
+<h6 style="font-size: 27px;">Electric engine</h6>
+<img src="https://www.motortrend.com/uploads/2022/01/a8a32f5dd463c324_800x800ar.png"
+     alt="patrol"
+     style="width: 270px; height:160px;" />
+<pre style=" text-decoration:overline; font-size:18px">
+*Koenigsegg in-house designed Dark Matter E-motor
+
+*6-phase
+
+*Power: 800 hp
+
+*Max true: 1250 Nm
+
+*Raxial Flux configuration, mix between radial and axial flux technology
+
+*Max motor RPM 8500
+</pre>
+
+@code {
+
+}
