@@ -1,0 +1,63 @@
+@page "/gallery"
+<style>
+    #main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .carousel-inner img {
+        max-width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    #carouselExample {
+        width: 87%;
+    }
+    back
+</style>
+<div id="main" class="container">
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+
+
+        <div class="carousel-inner">
+
+            <div class="carousel-item active">
+                <img src="https://koenigsegg-cdn-g7eehhd6f0ewcaff.z02.azurefd.net/drupal/styles/1920x1400/azure/2023-07/Koenigsegg%20Gemera%20in%20front%20of%20the%20Gripen%20Atelier%20copy.jpg?h=009d19b8&itok=7aI1vjIU" class="d-block w-100" alt="Peregrine Falcon 1">
+            </div>
+
+            <div class="carousel-item">
+                <img src="https://koenigsegg-cdn-g7eehhd6f0ewcaff.z02.azurefd.net/drupal/styles/1920x1400/azure/2023-07/20230710%20EXT%20%288%20of%201%29.png?h=f80a1eef&itok=_MYHS-T3" class="d-block w-100" alt="Peregrine Falcon 2">
+            </div>
+
+            <div class="carousel-item active">
+                <img src="https://koenigsegg-cdn-g7eehhd6f0ewcaff.z02.azurefd.net/drupal/styles/autox720/azure/2023-07/studio_23.386%20%281%29.png?itok=LYIIzW-B" class="d-block w-100" alt="Peregrine Falcon 1">
+            </div>
+
+            <div class="carousel-item active">
+                <img src="https://koenigsegg-cdn-g7eehhd6f0ewcaff.z02.azurefd.net/drupal/styles/autox720/azure/2024-05/GEMERA%20INT_MAGAZINE_02_20240410%20%281%29_1.jpg?itok=f353WXaW" class="d-block w-100" alt="Peregrine Falcon 1">
+            </div>
+            
+            <div class="carousel-item active">
+                <img src="https://koenigsegg-cdn-g7eehhd6f0ewcaff.z02.azurefd.net/drupal/styles/1920x1400/azure/2023-07/Screenshot%202023-07-10%20at%2013.38.01.png?h=018cfb4b&itok=Cf7ikFiF" class="d-block w-100" alt="Peregrine Falcon 1">
+            </div>
+
+        </div>
+
+
+        
+    </div>
+   
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+@code {
+
+}
