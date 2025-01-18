@@ -1,0 +1,38 @@
+@page "/Intreior"
+<h1 style="font-size:100px">Interior</h1>
+<h6 style="font-size:25px">The desinginer</h6>
+<img src="https://s1.cdn.autoevolution.com/images/news/koenigsegg-gemera-s-amazing-cabin-was-done-by-bugatti-designer-etienne-salom-141605_1.jpg"
+     alt="Koenigsegg Gemera desinger"
+     style="width: 300px; height:300px;" />
+<pre style=" text-decoration:overline; font-size:18px">
+Koenigsegg Gemera's Amazing Cabin Was Done by Bugatti Designer
+Etienne Salomé the designer of the Gemera broke cover 
+at the Geneva Motor Show on our screens and the
+machine still appears as striking as it did at first sight.
+</pre>
+
+
+
+
+@code {
+
+}
+@page "/Intreior"
+<h1 style="font-size:100px">Interior</h1>
+<h6 style="font-size:25px">The desinginer</h6>
+<img src="https://s1.cdn.autoevolution.com/images/news/koenigsegg-gemera-s-amazing-cabin-was-done-by-bugatti-designer-etienne-salom-141605_1.jpg"
+     alt="Koenigsegg Gemera desinger"
+     style="width: 300px; height:300px;" />
+<pre style=" text-decoration:overline; font-size:18px">
+Koenigsegg Gemera's Amazing Cabin Was Done by Bugatti Designer
+Etienne Salomé the designer of the Gemera broke cover 
+at the Geneva Motor Show on our screens and the
+machine still appears as striking as it did at first sight.
+</pre>
+
+
+
+
+@code {
+
+}
