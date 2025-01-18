@@ -1,0 +1,30 @@
+# website
+@inherits LayoutComponentBase
+
+<div style="display: flex; flex-direction: column; height: 100vh;">
+
+    <div style="height: 2%;color:black; background-color: white; padding: 30px; font-size: 25px;text-align: center; text-decoration:none;">
+        <nav>
+            <a href="/" style="margin-right: 15px; color: dimgrey; text-decoration:none;">home</a>
+            <a href="/gallery" style="margin-right: 15px; color: dimgrey; text-decoration:none;">gallery</a>
+            <a href="/parts" style="color: dimgrey; text-decoration:none;">information</a>
+        </nav>
+
+    </div>
+
+
+    <div style="height: 75%; padding: 10px; overflow-y: auto;">
+       
+        @Body
+       
+    </div>
+
+
+
+</div>
+
+<div id="blazor-error-ui">
+    An unhandled error has occurred.
+    <a href="" class="reload">Reload</a>
+    <a class="dismiss">🗙</a>
+</div>
